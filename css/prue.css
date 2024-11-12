@@ -1,0 +1,30 @@
+.fondo {
+    height: 650px;
+    position: relative;
+    background-image: url(../img/Seul.jpg);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    border-style: solid;
+    border-color: #5f2c82 transparent transparent transparent;
+    border-color: -webkit-linear-gradient(to right, #49a09d, #5f2c82);
+    border-color: linear-gradient(to right, #49a09d, #5f2c82);
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
